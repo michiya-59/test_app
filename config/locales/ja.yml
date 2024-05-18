@@ -1,0 +1,14 @@
+ja:
+  activerecord:
+    attributes:
+      user:
+        name: "表示名"
+        password: "パスワード"
+        password_confirmation: "パスワード確認"
+        email: "メールアドレス"
+        confirmation_token: "登録URL"
+    errors:
+      messages:
+        blank: "%{attribute}を入力してください。"
+        too_short: "%{attribute}は%{count}文字以上で入力してください。"
+        wrong_password_confirmation: "パスワードが確認用と一致していません。"
