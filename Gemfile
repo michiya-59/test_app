@@ -18,6 +18,10 @@ gem "bootsnap", require: false
 gem "image_processing", "~> 1.2"
 gem 'mailgun-ruby', '~>1.2.4'
 gem 'dotenv-rails'
+gem "dartsass-rails", "~> 0.5.0"
+gem 'sassc-rails'
+gem 'pry-rails'
+gem 'rails-i18n'
 
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ]
@@ -33,5 +37,3 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
-
-gem "dartsass-rails", "~> 0.5.0"
